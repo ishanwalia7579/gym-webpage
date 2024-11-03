@@ -1,0 +1,106 @@
+body {
+    /* font-family: 'Baloo Bhai', cursive; */
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url(https://c0.wallpaperflare.com/preview/190/596/906/active-adult-body-body-building.jpg);
+    background-size: 100%;
+}
+
+.left {
+    font-family: 'Kaisei HarunoUmi', serif;
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 60px;
+    top: 20px;
+}
+
+.left img {
+    width: 136px;
+    filter: invert(100%);
+}
+
+.left div {
+    line-height: 19px;
+    font-size: 26px;
+    text-align: center;
+}
+
+.mid {
+    display: block;
+    width: 50%;
+    margin: 29px auto;
+    /* border: 2px solid green; */
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 43px;
+    display: inline-block;
+    /* border: 2px solid yellow; */
+}
+
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 15px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    column-rule: grey;
+}
+
+.btn {
+    /* font-family: 'Sora', sans-serif; */
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: grey;
+}
+
+.form {
+    margin: 57px;
+    padding-top: 93px;
+}
+
+
+.textarea {
+    width: 250px;
+    height: 30px;
+    text-align: center;
+    display: inline-block;
+    padding: 2px;
+    border-radius: 7px;
+}
+
+.form input {
+    text-align: center;
+    display: inline-block;
+    border-radius: 7px;
+}
+
+.dropdown {
+    margin: 15px auto;
+}

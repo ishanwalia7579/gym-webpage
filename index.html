@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="gym.css">
+</head>
+<body>
+    
+    <header class="header">
+        <!-- Left box for logo -->
+        <div class="left">
+            <img src="https://e7.pngegg.com/pngimages/240/627/png-clipart-gym-logo-mark-gym.png" alt="">
+            <div>SLEDGE GYMs</div>
+        </div>
+        <!-- Mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+    
+        <!-- Right box for buttons -->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    </div>
+    <form class="form" action="backend.php">
+        <label for="name"> </label>
+        <div>
+            Name: <input type="text" name="myName" id="name" placeholder="Enter your Name">
+        </div>
+        <br>
+        <div>
+            Email: <input type="email" name="myEmail" placeholder="Enter your e-mail">
+        </div>
+    
+        <br>
+        <div>
+            Age: <input type="date" name="myDate" placeholder="Enter today's date">
+        </div>
+        <br>
+        <div>
+            Gender:<br> Male <input type="radio" name="myGender"><br> Female <input type="radio" name="myGender"><br>
+            Other <input type="radio" name="myGender">
+        </div>
+    
+        <br>
+        <div>
+            Write about yourself: <br><textarea class="textarea" name="myText" cols="90" rows="10"
+                placeholder="About yourself"></textarea>
+    
+            <br>
+            <div>
+                <label for="question">Have you ever been to gym?</label>
+                <select class="dropdown" name="question" id="question">
+                    <option value="ind">Yes</option>
+                    <option value="swf" >No</option>
+                    <option value="swf" selected>Would not like to answer</option>
+                </select>
+            </div>
+            <br>
+    
+            <div>
+                <input class="btn" type="submit" value="Submit Now">
+            </div>
+    </form>
+</body>
+</html>
